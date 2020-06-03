@@ -1,0 +1,151 @@
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(../img/3310.png) no-repeat top,url(../img/retro.jpg);
+  margin-top: 0px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.score {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+ float: right;
+  width:100px;
+  margin-right: 10px;
+  font-weight: bold;
+  color: darkolivegreen;
+}
+
+canvas {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.nokia3310 {
+  background: url(./img/3310.png) no-repeat top;
+  margin-top: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.mobile-buttons {
+  margin-top: 100px;
+  position: absolute;
+  top: 580px;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+.mobile-buttons .row {
+  height: 35px;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.num-button {
+  padding: 40px;
+}
+
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  align-content: center;
+}
+
+/* Style the content */
+.content {
+  padding: 10px;
+  width: 430px;
+  padding-top: 55px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.reset {
+  padding-top:80px;
+}
+
+.reset button {
+  background-color: #4caf5000;
+  border: none;
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bolder;
+  margin: auto;
+  cursor: pointer;
+  width: 200px;
+  text-shadow: 3px 4px 6px grey;
+}
+
+.logo {
+  background-image: url(./img/logo.png)
+}
+
+canvas {
+  text-align: center;
+  margin:auto;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  /* padding: 10px; */
+  position: fixed;
+  bottom: 5px;
+  width: 20%;
+  margin-left: auto;
+  text-align: -webkit-center;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  border-radius: 20px;
+}
+
+/* fonts */
+h1 { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 275px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
+
+
+h2 { color: #111; font-family: 'Open Sans', sans-serif; font-size: 30px; font-weight: 300; line-height: 32px; margin: 0 0 72px; text-align: center; }
+
+
+p { color: #685206; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 0 24px; text-align: justify; text-justify: inter-word; }
